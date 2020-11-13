@@ -1,11 +1,11 @@
 import React, { Fragment } from 'react';
-import loading from './loading.svg';
+import spinner from './spinner.svg';
 
-const Loading = () => {
+const Spinner = () => {
   return (
     <Fragment>
       <img
-        src={loading}
+        src={spinner}
         alt="Loading..."
         style={{ width: '200px', margin: 'auto', display: 'block' }}
       />
@@ -13,4 +13,4 @@ const Loading = () => {
   );
 };
 
-export default Loading;
+export default Spinner;
