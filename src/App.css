@@ -380,6 +380,11 @@ table th {
   color: red;
 }
 
+.vijay {
+  width: 250px;
+  height: 250px;
+}
+
 /* Mobile Styles */
 @media (max-width: 700px) {
   .hide-sm {
